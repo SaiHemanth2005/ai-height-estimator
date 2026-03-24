@@ -1,30 +1,48 @@
-# AI Height Estimation System
 
-This project estimates a person's height using a single camera and AI-based pose detection.
 
-## 🚀 Features
-- Real-time height detection
-- Auto calibration
-- Distance validation
-- Clean UI overlay
+# 🚀 AI-Based Height Estimation System
+
+An AI-powered system that estimates a person’s height using a single camera and computer vision techniques.
+
+---
+
+## 📸 Demo
+
+(Add your screenshot here)
+![Demo](demo.png)
+
+---
+
+## 🧠 How It Works
+
+- Detects human body using MediaPipe Pose
+- Identifies key landmarks (head and feet)
+- Calculates pixel distance between them
+- Converts pixel distance into real-world height using calibration
+
+---
+
+## ✨ Features
+
+- 📏 Real-time height estimation  
+- ⚙️ Automatic calibration  
+- 📐 Distance validation (move closer / move back alerts)  
+- 🧍 Posture & full-body detection  
+- 🎨 Clean UI with live feedback  
+
+---
 
 ## 🛠 Tech Stack
-- Python
-- OpenCV
-- MediaPipe
+
+- **Programming Language:** Python  
+- **Libraries:** OpenCV, MediaPipe, NumPy  
+- **Concepts:** Computer Vision, Pose Estimation, Image Processing  
+
+---
 
 ## ▶️ How to Run
 
-1. Install dependencies:
-pip install -r requirements.txt
-
-2. Run:
-python main.py
-
-## 📸 Demo
-(You can add screenshots here)
-
-## 📌 Future Improvements
-- Mobile app integration
-- Multi-person detection
-- Cloud storage
+1. Clone the repository:
+```bash
+git clone https://github.com/SaiHemanth2005/ai-height-estimator.git
+cd ai-height-estimator
